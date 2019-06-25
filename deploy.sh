@@ -3,6 +3,9 @@
 # abort on errors
 set -e
 
+# Remove assets
+rm -rf ./docs/.vuepress/dist
+
 # build
 npm run docs:build
 
@@ -13,6 +16,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:nomit-dev/nomit.dev.git master:gh-pages
+git push
 
 cd -

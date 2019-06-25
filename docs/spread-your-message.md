@@ -1,5 +1,7 @@
 # Spread your message
 
+25-06-2019
+
 Ever since I started working for myself (since March this year) I've been having a motivational problem.
 
 My initial ideas went out to try to create one or multiple SaaS products. However, every idea I started I lost
